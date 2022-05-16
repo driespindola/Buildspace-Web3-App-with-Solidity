@@ -1,0 +1,76 @@
+* {
+  background-color: #0C7B93;
+}
+
+p {
+  background: #FBFFFE;
+  text-align: center;
+  color: #0C7B93;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  max-width: 600px;
+  background: #FBFFFE;
+  border: 3px solid #FCD1D1;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 3.6px 4.1px 12.4px rgba(0, 0, 0, 0.075),
+  29px 33px 99px rgba(0, 0, 0, 0.15);
+}
+
+.header {
+  text-align: center;
+  background: #FBFFFE;
+  color: #FCD1D1;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  background: #FBFFFE;
+  color: #0C7B93;
+  margin-top: 16px;
+}
+
+#cardOne {
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cardTwo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background: #FCD1D1;
+  color: #0C7B93;
+}
+
+.waveButton:hover {
+  background: #0C7B93;
+  color: #FCD1D1;
+}
